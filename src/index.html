@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+<body>
+	<div class="container">
+		<main>
+			<input type="" id="viewFinder">
+
+			<section>
+				<button id="one" onclick="setValue(1)">1</button>
+				<button id="two" onclick="setValue(2)">2</button>
+				<button id="tree" onclick="setValue(3)">3</button>
+			</section>
+
+			<section>
+				<button id="four" onclick="setValue(4)">4</button>
+				<button id="five" onclick="setValue(5)">5</button>
+				<button id="six" onclick="setValue(6)">6</button>
+			</section>
+
+			<section>
+				<button id="seven" onclick="setValue(7)">7</button>
+				<button id="eight" onclick="setValue(8)">8</button>
+				<button id="nine" onclick="setValue(9)">9</button>
+			</section>
+
+			<section class="zero">
+				<button id="zero" onclick="setValue(0)">0</button>
+			</section>
+
+			<section class="operators">
+				<button onclick="Calculates()">=</button>
+				<button onclick="setValue('-')">-</button>
+				<button onclick="setValue('+')">+</button>
+				<button onclick="setValue('*')">x</button>
+				<button onclick="setValue('/')">/</button>
+				<button onclick="Delete()">D</button>
+			</section>
+		</main>
+	</div>
+
+	<script src="./FunctionsCalculator/calculator.js"></script>
+</body>
+</html>

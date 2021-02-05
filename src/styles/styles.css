@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #DCDCDC;
+}
+
+.container main {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../imagens/backgroundCalculator.jpg");
+	background-position: center; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 230px;
+	margin-top: 50px;
+	width: 150px;
+}
+
+.container main input {
+	outline: none;
+	margin: 2px;
+}
+
+.container main section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.container main .zero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container main .operators {
+	margin: 2px;
+}
