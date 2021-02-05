@@ -4,9 +4,9 @@ A long time ago, in technical high school, one of the computer teachers asked th
 
 # Project images: 
 
-<img src="./Calculator" />
-<img src="./Exemplo" />
-<img src="./ResultOfExemplo" />
+<img src="./ImagensGithub/Calculator" />
+<img src="./ImagensGithub/Exemplo" />
+<img src="./ImagensGithub/ResultOfExemplo" />
 
 
 **I say, every programmer must make a calculator.**
